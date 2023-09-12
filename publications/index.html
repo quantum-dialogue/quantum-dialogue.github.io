@@ -173,131 +173,6 @@
   </div>
 </li>
 
-  <li><div class="row m-0 mt-3 p-0">
-     <div class="col-sm-1 p-0 abbr">
-        <a class="badge font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://icml.cc/" target="_blank">
-          ICML
-        </a>
-     </div>
-
-      <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
-
-        <div id="peng2023ICML" class="col p-0">
-          <h5 class="title mb-0">Diagnosis, Feedback, Adaptation: A Human-in-the-Loop Framework for Test-Time Policy Adaptation</h5>
-          <div class="author">
-
-              <nobr><a href="https://andipeng.com/" target="_blank">Andi Peng</a>,</nobr>
-
-              <nobr><a href="https://avivne.github.io/" target="_blank">Aviv Netanyahu</a>,</nobr>
-
-              <nobr><a href="https://markkho.github.io/" target="_blank">Mark K. Ho</a>,</nobr>
-
-              <nobr><a href="https://www.tshu.io/" target="_blank">Tianmin Shu</a>,</nobr>
-
-              <nobr><em>Andreea Bobu</em>,</nobr>
-
-             <nobr><a href="https://interactive.mit.edu/about/people/julie" target="_blank">Julie Shah</a>,</nobr>
-
-                                        and
-
-              <nobr><a href="https://people.csail.mit.edu/pulkitag/" target="_blank">Pulkit Agrawal</a>.</nobr>
-
-          </div>
-
-          <div>
-            <p class="periodical font-italic">
-              International Conference on Machine Learning (ICML), 2023
-            </p>
-          </div>
-
-          <div class="col p-0">
-
-              <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#peng2023ICML-abstract" role="button" aria-expanded="false" aria-controls="peng2023ICML-abstract">Abstract</a>
-
-              <a class="badge grey waves-effect font-weight-light mr-1" href="https://openreview.net/pdf?id=rFLtREMkTR" target="_blank">PDF</a>
-
-          </div>
-
-          <div class="col mt-2 p-0">
-            <div id="peng2023ICML-abstract" class="collapse">
-                <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
-                  Policies often fail at test-time due to distribution shifts---changes in the state and reward that occur when an end user deploys the policy in environments different from those seen in training.
-                  Data augmentation can help models be more robust to such shifts by varying specific concepts in the state, e.g. object color, that are task-irrelevant and should not impact desired actions.
-                  However, designers training the agent don't often know which concepts are irrelevant a priori.
-                  We propose a human-in-the-loop framework to leverage feedback from the end user to quickly identify and augment task-irrelevant visual state concepts.
-                  Our framework generates counterfactual demonstrations that allow users to quickly isolate shifted state concepts and identify if they should not impact the desired task, and can therefore be augmented using existing actions.
-                  We present experiments validating our full pipeline on discrete and continuous control tasks with real human users.
-                  Our method better enables users to (1) understand agent failure, (2) improve sample efficiency of demonstrations required for finetuning, and (3) adapt the agent to their desired reward.
-                </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-</li>
-
-
-		<li><div class="row m-0 mt-3 p-0">
-			 <div class="col-sm-1 p-0 abbr">
-        <a class="badge font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://humanrobotinteraction.org/2023/" target="_blank">
-          HRI
-        </a>
-			</div>
-  <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
-
-    <div id="bobu2023HRI" class="col p-0">
-      <h5 class="title mb-0">SIRL: Similarity-based Implicit Representation Learning</h5>
-      <div class="author">
-
-									<nobr><em>Andreea Bobu*</em>,</nobr>
-
-                  <nobr><a href="https://www.linkedin.com/in/yiliu77/" target="_blank">Yi Liu<nobr><em>*</em></nobr></a>,</nobr>
-
-                  <nobr><a href="https://rohinshah.com/" target="_blank">Rohin Shah</a>,</nobr>
-
-                  <nobr><a href="https://www.cs.utah.edu/~dsbrown/" target="_blank">Daniel S. Brown</a>,</nobr>
-
-									and
-
-                  <nobr><a href="https://people.eecs.berkeley.edu/~anca/" target="_blank">Anca D. Dragan</a>.</nobr>
-
-      </div>
-
-      <div>
-        <p class="periodical font-italic">
-          ACM/IEEE International Conference on Human Robot Interaction (HRI), 2023
-        </p>
-      </div>
-
-      <div class="col p-0">
-
-          <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#bobu2023HRI-abstract" role="button" aria-expanded="false" aria-controls="bobu2023HRI-abstract">Abstract</a>
-
-          <a class="badge grey waves-effect font-weight-light mr-1" href="https://dl.acm.org/doi/abs/10.1145/3568162.3576989" target="_blank">PDF</a>
-          <a class="badge grey waves-effect font-weight-light mr-1" href="https://youtu.be/T5Q4-Vxqbo4" target="_blank">Talk</a>
-
-      </div>
-
-      <div class="col mt-2 p-0">
-        <div id="bobu2023HRI-abstract" class="collapse">
-          <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
-              When robots learn reward functions using high capacity models that take raw state directly as input, they need to both learn a representation for what matters in the task -- the task "features" -- as well as how to combine these features into a single objective.
-              If they try to do both at once from input designed to teach the full reward function, it is easy to end up with a representation that contains spurious correlations in the data, which fails to generalize to new settings.
-              Instead, our ultimate goal is to enable robots to identify and isolate the causal features that people actually care about and use when they represent states and behavior.
-              Our idea is that we can tune into this representation by asking users what behaviors they consider similar: behaviors will be similar if the features that matter are similar, even if low-level behavior is different; conversely, behaviors will be different if even one of the features that matter differs.
-              This, in turn, is what enables the robot to disambiguate between what needs to go into the representation versus what is spurious, as well as what aspects of behavior can be compressed together versus not. The notion of learning representations based on similarity has a nice parallel in contrastive learning, a self-supervised representation learning technique that maps visually similar data points to similar embeddings, where similarity is defined by a designer through data augmentation heuristics. By contrast, in order to learn the representations that people use, so we can learn their preferences and objectives, we use their definition of similarity. In simulation as well as in a user study, we show that learning through such similarity queries leads to representations that, while far from perfect, are indeed more generalizable than self-supervised and task-input alternatives.          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-</li>
-
-      </ol>
-    </div>
-  </div>
 
 
 
@@ -307,6 +182,118 @@
     </div>
     <div class="col-sm-11 p-0">
       <ol class="bibliography">
+
+
+        <li><div class="row m-0 mt-3 p-0">
+          <div class="col-sm-1 p-0 abbr">
+                <a class="badge font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://neurips-hill.github.io/" target="_blank">
+                  HILL
+                </a>
+              </div>
+          <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+        
+            <div id="zhang2022NeurIPSw" class="col p-0">
+              <h5 class="title mb-0">Time-Efficient Reward Learning via Visually Assisted Cluster Ranking</h5>
+              <div class="author">
+        
+                          <nobr><a href="https://www.linkedin.com/in/davidzhang501/" target="_blank">David Zhang</a>,</nobr>
+        
+                          <nobr><a href="https://micahcarroll.github.io/" target="_blank">Micah Carroll</a>,</nobr>
+        
+                      <nobr><em>Andreea Bobu</em>,</nobr>
+        
+                          and
+        
+                          <nobr><a href="https://people.eecs.berkeley.edu/~anca/" target="_blank">Anca D. Dragan</a>.</nobr>
+        
+              </div>
+        
+              <div>
+                <p class="periodical font-italic">
+                Workshop on Workshop on Human in the Loop Learning, NeurIPS 2022
+                </p>
+              </div>
+        
+              <div class="col p-0">
+        
+                  <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#zhang2022NeurIPSw-abstract" role="button" aria-expanded="false" aria-controls="zhang2022NeurIPSw-abstract">Abstract</a>
+        
+                  <a class="badge grey waves-effect font-weight-light mr-1" href="https://arxiv.org/abs/2212.00169" target="_blank">PDF</a>
+                  <a class="badge grey waves-effect font-weight-light mr-1" href="https://drive.google.com/drive/u/0/folders/1hxsVqD940LMYfGusKe5SB3AXtQJNcH9l" target="_blank">Video</a>
+              </div>
+        
+              <div class="col mt-2 p-0">
+                <div id="zhang2022NeurIPSw-abstract" class="collapse">
+                  <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+              One of the most successful paradigms for reward learning uses human feedback in the form of comparisons.
+                      Although these methods hold promise, human comparison labeling is expensive and time consuming, constituting a major bottleneck to their broader applicability.
+                      Our insight is that we can greatly improve how effectively human time is used in these approaches by batching comparisons together, rather than having the human label each comparison individually.
+                      To do so, we leverage data dimensionality-reduction and visualization techniques to provide the human with a interactive GUI displaying the state space, in which the user can label subportions of the state space.
+                      Across some simple Mujoco tasks, we show that this high-level approach holds promise and is able to greatly increase the performance of the resulting agents, provided the same amount of human labeling time.
+          </div>
+                </div>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+        </li>
+        
+
+<li><div class="row m-0 mt-3 p-0">
+	<div class="col-sm-1 p-0 abbr">
+        <a class="badge font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://neurips-hill.github.io/" target="_blank">
+          HILL
+        </a>
+			</div>
+  <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+
+    <div id="zhang2022NeurIPSw" class="col p-0">
+      <h5 class="title mb-0">Time-Efficient Reward Learning via Visually Assisted Cluster Ranking</h5>
+      <div class="author">
+
+                  <nobr><a href="https://www.linkedin.com/in/davidzhang501/" target="_blank">David Zhang</a>,</nobr>
+
+                  <nobr><a href="https://micahcarroll.github.io/" target="_blank">Micah Carroll</a>,</nobr>
+
+							<nobr><em>Andreea Bobu</em>,</nobr>
+
+									and
+
+                  <nobr><a href="https://people.eecs.berkeley.edu/~anca/" target="_blank">Anca D. Dragan</a>.</nobr>
+
+      </div>
+
+      <div>
+        <p class="periodical font-italic">
+        Workshop on Workshop on Human in the Loop Learning, NeurIPS 2022
+        </p>
+      </div>
+
+      <div class="col p-0">
+
+          <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#zhang2022NeurIPSw-abstract" role="button" aria-expanded="false" aria-controls="zhang2022NeurIPSw-abstract">Abstract</a>
+
+          <a class="badge grey waves-effect font-weight-light mr-1" href="https://arxiv.org/abs/2212.00169" target="_blank">PDF</a>
+          <a class="badge grey waves-effect font-weight-light mr-1" href="https://drive.google.com/drive/u/0/folders/1hxsVqD940LMYfGusKe5SB3AXtQJNcH9l" target="_blank">Video</a>
+      </div>
+
+      <div class="col mt-2 p-0">
+        <div id="zhang2022NeurIPSw-abstract" class="collapse">
+          <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+	    One of the most successful paradigms for reward learning uses human feedback in the form of comparisons.
+              Although these methods hold promise, human comparison labeling is expensive and time consuming, constituting a major bottleneck to their broader applicability.
+              Our insight is that we can greatly improve how effectively human time is used in these approaches by batching comparisons together, rather than having the human label each comparison individually.
+              To do so, we leverage data dimensionality-reduction and visualization techniques to provide the human with a interactive GUI displaying the state space, in which the user can label subportions of the state space.
+              Across some simple Mujoco tasks, we show that this high-level approach holds promise and is able to greatly increase the performance of the resulting agents, provided the same amount of human labeling time.
+	</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</li>
 
 
 <li><div class="row m-0 mt-3 p-0">
