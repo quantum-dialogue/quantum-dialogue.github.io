@@ -1,3 +1,45 @@
+# Atul Mantri's Personal Webpage
+
+Welcome to my personal webpage repository! This webpage serves as a platform for sharing my academic and research work, as well as insights into the fascinating world of quantum computing and cryptography.
+
+## Table of Contents
+- [About](#about)
+- [Teaching](#teaching)
+- [Publications](#publications)
+- [Awards and Honors](#awards-and-honors)
+- [Contact](#contact)
+
+## About
+Explore my background, academic journey, and research interests. Learn more about the mentors and advisors who have guided me throughout my career.
+
+## Teaching
+Discover the courses I've taught, including course descriptions, syllabi, and resources. Explore topics in quantum computing and cryptography and gain valuable insights into cutting-edge research in these fields.
+
+## Publications
+Access my research papers, publications, and contributions to the field of quantum computing and cryptography. Stay updated with the latest developments in quantum technology.
+
+## Awards and Honors
+Learn about the recognition and awards I've received for my contributions to the field. Celebrate the achievements and milestones in my academic journey.
+
+## Contact
+Connect with me via email or on academic and professional platforms such as Google Scholar and GitHub. I'm always open to collaborations and discussions in the field of quantum science.
+
+## License
+This project is licensed under the [MIT License](LICENSE) - feel free to use, modify, and share this content as long as you provide proper attribution.
+
+Thank you for visiting my webpage! Feel free to explore the various sections and get in touch if you have any questions or opportunities for collaboration.
+
+
+
+
+
+
+
+
+
+
+
+
 # al-folio
 A simple and clean [Jekyll](https://jekyllrb.com/) theme for academics.
 
