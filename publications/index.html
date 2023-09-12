@@ -303,7 +303,7 @@
    
          <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
    
-           <div id="alnawakhtha2022" class="col p-0">
+           <div id="ciampi2022" class="col p-0">
              <h5 class="title mb-0">Secure Two-Party Quantum Computation Over Classical Channels</h5>
              <div class="author">
    
@@ -345,57 +345,115 @@
        </div>
    </li>
 
-<div class="col-sm-11 p-0">
-    <ol class="bibliography">
-  <li><div class="row m-0 mt-3 p-0">
-   <div class="col-sm-1 p-0 abbr">
-      <a class="badge font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://arxiv.org/abs/2007.01668" target="_blank">
-        ASIACRYPT
-      </a>
-   </div>
-
-    <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
-
-      <div id="badertscher2020" class="col p-0">
-        <h5 class="title mb-0">Security Limitations of Classical-Client Delegated Quantum Computing</h5>
-        <div class="author">
-
-            <nobr>Christian Badertscher,</nobr> 
-            <nobr>Alexandru Cojocaru,</nobr> 
-            <nobr>Léo Colisson,</nobr> 
-            <nobr>Elham Kashefi,</nobr> 
-            <nobr>Dominik Leichtle,</nobr> 
-            <nobr><em>Atul Mantri</em>,</nobr>
-            <nobr>Petros Wallden</nobr> 
-          
-        </div>
-
-        <div>
-          <p class="periodical font-italic">
-            In: Moriai, S., Wang, H. (eds) Advances in Cryptology -- ASIACRYPT 2020. ASIACRYPT 2020. Lecture Notes in Computer Science(), vol 12492. Springer, Cham. 
-          </p>
-        </div>
-
-        <div class="col p-0">
-
-            <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="badertscher2020-abstract" role="button" aria-expanded="false" aria-controls="badertscher2020-abstract">Abstract</a>
-
-            <a class="badge grey waves-effect font-weight-light mr-1" href="https://arxiv.org/pdf/2007.01668.pdf" target="_blank">PDF</a>
-
-
-        </div>
-
-        <div class="col mt-2 p-0">
-          <div id="badertscher2020-abstract" class="collapse">
-              <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
-               Secure delegated quantum computing allows a computationally weak client to outsource an arbitrary quantum computation to an untrusted quantum server in a privacy-preserving manner. One of the promising candidates to achieve classical delegation of quantum computation is classical-client remote state preparation (RSPCC), where a client remotely prepares a quantum state using a classical channel. However, the privacy loss incurred by employing RSPCC as a sub-module is unclear. In this work, we investigate this question using the Constructive Cryptography framework by Maurer and Renner (ICS'11). We first identify the goal of RSPCC as the construction of ideal RSP resources from classical channels and then reveal the security limitations of using RSPCC. First, we uncover a fundamental relationship between constructing ideal RSP resources (from classical channels) and the task of cloning quantum states. Any classically constructed ideal RSP resource must leak to the server the full classical description (possibly in an encoded form) of the generated quantum state, even if we target computational security only. As a consequence, we find that the realization of common RSP resources, without weakening their guarantees drastically, is impossible due to the no-cloning theorem. Second, the above result does not rule out that a specific RSPCC protocol can replace the quantum channel at least in some contexts, such as the Universal Blind Quantum Computing (UBQC) protocol of Broadbent et al. (FOCS '09). However, we show that the resulting UBQC protocol cannot maintain its proven composable security as soon as RSPCC is used as a subroutine. Third, we show that replacing the quantum channel of the above UBQC protocol by the RSPCC protocol QFactory of Cojocaru et al. (Asiacrypt '19), preserves the weaker, game-based, security of UBQC. two-party computation considers the problem of two parties computing a joint function of their private inputs without revealing anything beyond the output. In this work, we consider the setting where the two parties (a classical Alice and a quantum Bob) can communicate only via a classical channel. Our first result shows that it is in general impossible to realize a two-party quantum functionality with black-box simulation in the case of malicious quantum adversaries. In particular, we show that the existence of a secure quantum computing protocol that relies only on classical channels would contradict the quantum no-cloning argument. 
-              </div>
-          </div>
-        </div>
-
-      </div>
+   <li><div class="row m-0 mt-3 p-0">
+    <div class="col-sm-1 p-0 abbr">
+       <a class="badge font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://link.springer.com/chapter/10.1007/978-3-030-64834-3_23" target="_blank">
+         Asiacrypt
+       </a>
     </div>
+ 
+     <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+ 
+       <div id="badertscher2020" class="col p-0">
+         <h5 class="title mb-0">Security Limitations of Classical-Client Delegated Quantum Computing</h5>
+         <div class="author">
+ 
+             <nobr>Christian Badertscher,</nobr>
+             <nobr>Alexandru Cojocaru,</nobr>
+             <nobr>Léo Colisson,</nobr>
+             <nobr>Elham Kashefi,</nobr>
+             <nobr>Dominik Leichtle,</nobr>
+             <nobr><em>Atul Mantri</em>,</nobr>
+             <nobr>Petros Wallden</nobr>
+             
+             
+            
+           
+ 
+         </div>
+ 
+         <div>
+           <p class="periodical font-italic">
+            ASIACRYPT 2020 In: Moriai S., Wang H. (eds) Advances in Cryptology - ASIACRYPT 2020. Lecture Notes in Computer Science, vol 12492. Springer, Cham
+           </p>
+         </div>
+ 
+         <div class="col p-0">
+ 
+             <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#badertscher2020-abstract" role="button" aria-expanded="false" aria-controls="badertscher2022-abstract">Abstract</a>
+ 
+             <a class="badge grey waves-effect font-weight-light mr-1" href="https://arxiv.org/pdf/2007.01668.pdf" target="_blank">PDF</a>
+ 
+ 
+         </div>
+ 
+         <div class="col mt-2 p-0">
+           <div id="badertscher2020-abstract" class="collapse">
+               <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+                Secure delegated quantum computing allows a computationally weak client to outsource an arbitrary quantum computation to an untrusted quantum server in a privacy-preserving manner. One of the promising candidates to achieve classical delegation of quantum computation is classical-client remote state preparation (RSPCC), where a client remotely prepares a quantum state using a classical channel. However, the privacy loss incurred by employing RSPCC as a sub-module is unclear. 
+                In this work, we investigate this question using the Constructive Cryptography framework by Maurer and Renner (ICS'11). We first identify the goal of RSPCC as the construction of ideal RSP resources from classical channels and then reveal the security limitations of using RSPCC. First, we uncover a fundamental relationship between constructing ideal RSP resources (from classical channels) and the task of cloning quantum states. Any classically constructed ideal RSP resource must leak to the server the full classical description (possibly in an encoded form) of the generated quantum state, even if we target computational security only. As a consequence, we find that the realization of common RSP resources, without weakening their guarantees drastically, is impossible due to the no-cloning theorem. Second, the above result does not rule out that a specific RSPCC protocol can replace the quantum channel at least in some contexts, such as the Universal Blind Quantum Computing (UBQC) protocol of Broadbent et al. (FOCS '09). However, we show that the resulting UBQC protocol cannot maintain its proven composable security as soon as RSPCC is used as a subroutine. Third, we show that replacing the quantum channel of the above UBQC protocol by the RSPCC protocol QFactory of Cojocaru et al. (Asiacrypt '19), preserves the weaker, game-based, security of UBQC.
+               </div>
+           </div>
+         </div>
+ 
+       </div>
+     </div>
+   </div>
+ </li>
+
+<li><div class="row m-0 mt-3 p-0">
+  <div class="col-sm-1 p-0 abbr">
+     <a class="badge font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://arxiv.org/pdf/2004.05116" target="_blank">
+       ARES
+     </a>
   </div>
+
+   <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+
+     <div id="fitzsimons2020" class="col p-0">
+       <h5 class="title mb-0">A note on blind contact tracing at scale with applications to the COVID-19 pandemic</h5>
+       <div class="author">
+
+           <nobr>Jack K Fitzsimons,</nobr>
+           
+           <nobr><em>Atul Mantri</em>,</nobr>
+           <nobr>Robert Pisarczyk,</nobr>
+           <nobr>Tom Rainforth,</nobr>
+           <nobr>Zhikuan Zhao,</nobr> 
+           
+           
+          
+         
+
+       </div>
+
+       <div>
+         <p class="periodical font-italic">
+          ARES '20: Proceedings of the 15th International Conference on Availability, Reliability and Security, August 2020, Article No.: 92, Pages 1--6. 
+         </p>
+       </div>
+
+       <div class="col p-0">
+
+           <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#fitzsimons2020-abstract" role="button" aria-expanded="false" aria-controls="fitzsimons2020-abstract">Abstract</a>
+
+           <a class="badge grey waves-effect font-weight-light mr-1" href="https://dl.acm.org/doi/abs/10.1145/3407023.3409204" target="_blank">PDF</a>
+
+
+       </div>
+
+       <div class="col mt-2 p-0">
+         <div id="fitzsimons2020-abstract" class="collapse">
+             <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+              The current COVID-19 pandemic highlights the utility of contact tracing, when combined with case isolation and social distancing, as an important tool for mitigating the spread of a disease [1]. Contact tracing provides a mechanism of identifying individuals with a high likelihood of previous exposure to a contagious disease, allowing additional precautions to be put in place to prevent continued transmission.
+              Here we consider a cryptographic approach to contact tracing based on secure two-party computation (2PC). We begin by considering the problem of comparing a set of location histories held by two parties to determine whether they have come within some threshold distance while at the same time maintaining the privacy of the location histories. We propose a solution to this problem using pre-shared keys, adapted from an equality testing protocol due to Ishai et al [2]. We discuss how this protocol can be used to maintain privacy within practical contact tracing scenarios, including both app-based approaches and approaches which leverage location history held by telecoms and internet service providers. We examine the efficiency of this approach and show that existing infrastructure is sufficient to support anonymised contact tracing at a national level.
+             </div>
+         </div>
+       </div>
+
+     </div>
+   </div>
+ </div>
 </li>
 
 
